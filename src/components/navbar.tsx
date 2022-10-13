@@ -4,8 +4,8 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200 px-6 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-      <div className="container flex flex-wrap justify-between items-center mx-auto">
+    <nav className="bg-white border-gray-200 px-8 sm:px-32 py-2.5 rounded dark:bg-gray-900">
+      <div className="flex justify-between items-center flex-wrap">
         <a href="http://www.hidroglass.com.br" className="flex items-center">
           <img
             src="./logo-hidroglass-noBG.png"

@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
+import Navbar from '../components/navbar';
 
 const Home: NextPage = () => {
-  return <div className="bg-red-200 text-black">hello, world!</div>;
+  return <Navbar />;
 };
 
 export default Home;
